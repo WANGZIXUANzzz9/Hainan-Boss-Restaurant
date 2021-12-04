@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>Hainan Boss User Main Page</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Humburger Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script>
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+        function Menushow(){
+            var a = document.calculation.a.value;
+            var b = document.calculation.b.value;
+            var c = document.calculation.c.value;
+            var d = document.calculation.d.value;
+            var sum = parseInt(a*24) + parseInt(b*19) + parseInt(c*28) + parseInt(d*31);
+            confirm("You ordered " + a + " Wenchang Chicken/Pig Trotter Rice/Beer\n"
+            + "You ordered " + b + " Hele Crab/Fried Rice with Egg/Coconut Juice\n"
+            + "You ordered " + c + " Jiaji Duck/Hainan Rice Noodles/Iced Milk Tea\n"
+            + "You ordered " + d + " Dongshan Goat/Noodles/Iced Lemon Tea\n"
+            + "The total pay is $" + sum);
+        }
+
+        function Discount(){
+            var nickname = document.Discountcal.nickname.value;
+            var a = document.calculation.a.value;
+            var b = document.calculation.b.value;
+            var c = document.calculation.c.value;
+            var d = document.calculation.d.value;
+            var sum = parseInt(a*24) + parseInt(b*19) + parseInt(c*28) + parseInt(d*31);
+            alert("Welcome " + nickname + "!\n"
+            + "You login successfully!\n"
+            + "Now the total pay is $" + sum*0.9
+            );
+        }
+
+    </script>
+    <!-- //Meta tag Keywords -->
+    <!-- Custom-Files -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!-- Style-CSS -->
+    <!-- font-awesome-icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome-icons -->
+    <!-- /Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,600,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+    <!-- //Fonts -->
+</head>
+
+<body>
+    <!-- specialty -->
+    <section class="banner-bottom-wthree py-5" id="about">
+        <div class="container py-md-3">
+            <div class="row banner-grids">
+                <div class="col-md-6 content-left-bottom text-left pr-lg-5">
+                    <h4>THE SPECIALTY OF RESTAURANT - HAINAN RICE NOODLES</h4>
+                    <p class="mt-2 text-left">Hainan rice noodle is fragrant, soft and smooth, which could also stimulates appetite. <strong class="text-capitalize"> It is the most characteristic snack in Hainan Province.</strong> 
+                        The snack is most popular in the north of Hainan and spread a long history, which is a necessary symbol of auspicious festival season the curiosa of longevity..</p>
+
+                </div>
+                <div class="col-md-6 content-right-bottom text-left">
+                    <img src="images/Hainanfen.jpg" alt="news image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //specialty -->
+    <!--/ menu -->
+    <section class="services py-5" id="services">
+        <div class="container py-md-5">
+            <div class="header pb-lg-3 pb-3 text-center">
+                <h3 class="tittle two mb-lg-3 mb-3">What kind of Foods we serve for you</h3>
+            </div>
+            <div class="row ab-info mt-lg-4">
+                <div class="col-lg-3 ab-content">
+                    <div class="ab-content-inner">
+                        <img src="./images/Userfood1.jpg" alt="news image" class="img-fluid">
+                        <div class="ab-info-con">
+                            <h4>Wenchang Chicken</h4>
+                            <p>$11.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 ab-content">
+                    <div class="ab-content-inner">
+                        <img src="./images/Userfood2.jpg" alt="news image" class="img-fluid">
+                        <div class="ab-info-con">
+                            <h4>Hele Carb</h4>
+                            <p>$10.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 ab-content">
+                    <div class="ab-content-inner">
+                        <img src="./images/Userfood3.png" alt="news image" class="img-fluid">
+                        <div class="ab-info-con">
+                            <h4>Jiaji Duck</h4>
+                            <p>$15.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 ab-content">
+                    <div class="ab-content-inner">
+                        <img src="./images/Userfood4.image" alt="news image" class="img-fluid">
+                        <div class="ab-info-con">
+                            <h4>Dongshan Goat</h4>
+                            <p>$20.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--// menu -->
+    <section class="mid-sec py-5" id="menu">
+        <div class="container-fluid py-lg-5">
+            <div class="header pb-lg-3 pb-3 text-center">
+                <h3 class="tittle mb-lg-3 mb-3">Choose your combo !</h3>
+            </div>
+            <div class="middile-inner-con">
+                <div class="tab-main mx-auto text-center">
+    
+                    <input id="tab1" type="radio" name="tabs" checked>
+                    <label for="tab1"><span class="fa fa-align-center" aria-hidden="true"></span> Dishes</label>
+    
+                    <input id="tab2" type="radio" name="tabs">
+                    <label for="tab2"><span class="fa fa-bolt" aria-hidden="true"></span> Satple food</label>
+    
+                    <input id="tab3" type="radio" name="tabs">
+                    <label for="tab3"><span class="fa fa-bitbucket" aria-hidden="true"></span> Drinks</label>
+    
+                    <section id="content1">
+                        <div class="ab-info row">
+                            <div class="col-md-3 ab-content">
+                                <div class="tab-wrap">
+                                    <img src="./images/Userfood1.jpg" alt="news image" class="img-fluid">
+                                    <div class="ab-info-con">
+                                        <h4>A - Wenchang Chicken</h4>
+                                        <p class="price">$11.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 ab-content">
+                                <div class="tab-wrap">
+                                    <img src="./images/Userfood2.jpg" alt="news image" class="img-fluid">
+                                    <div class="ab-info-con">
+                                        <h4>B - Hele Carb</h4>
+                                        <p class="price">$10.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 ab-content">
+                                <div class="tab-wrap">
+                                    <img src="./images/Userfood3.png" alt="news image" class="img-fluid">
+                                    <div class="ab-info-con">
+                                        <h4>C - Jiaji Duck</h4>
+                                        <p class="price">$15.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 ab-content">
+                                <div class="tab-wrap">
+                                    <img src="./images/Userfood4.image" alt="news image" class="img-fluid">
+                                    <div class="ab-info-con">
+                                        <h4>D - Dongshan Goat</h4>
+                                        <p class="price">$20.99</p>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                    </section>
+    
+                    <section id="content2">
+    
+                        <div class="ab-info row">
+                            <div class="col-md-3 ab-content">
+                                <div class="tab-wrap">
+                                    <img src="./images/Userice1.jpg" alt="news image" class="img-fluid">
+                                    <div class="ab-info-con">
+                                        <h4>A - Pig Trotter Rice</h4>
+                                        <p class="price">$6.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 ab-content">
+                                <div class="tab-wrap">
+                                    <img src="./images/Userice2.jpg" alt="news image" class="img-fluid">
+                                    <div class="ab-info-con">
+                                        <h4>B - Fried Rice with Egg</h4>
+                                        <p class="price">$4.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 ab-content">
+                                <div class="tab-wrap">
+                                    <img src="./images/Hainanfen.jpg" alt="news image" class="img-fluid">
+                                    <div class="ab-info-con">
+                                        <h4>C - Hainan Rice Noodles</h4>
+                                        <p class="price">$7.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 ab-content">
+                                <div class="tab-wrap">
+                                    <img src="./images/Userice4.jpg" alt="news image" class="img-fluid">
+                                    <div class="ab-info-con">
+                                        <h4>D - Noodles</h4>
+                                        <p class="price">$5.99</p>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </section>
+    
+                    <section id="content3">
+                        <div class="ab-info row">
+                            <div class="col-md-3 ab-content">
+                                <div class="tab-wrap">
+                                    <img src="./images/Userdrink1.jpg" alt="news image" class="img-fluid">
+                                    <div class="ab-info-con">
+                                        <h4>A - Beer</h4>
+                                        <p class="price">$4.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 ab-content">
+                                <div class="tab-wrap">
+                                    <img src="./images/Userdrink2.jpg" alt="news image" class="img-fluid">
+                                    <div class="ab-info-con">
+                                        <h4>B - Coconut Juice</h4>
+                                        <p class="price">$2.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 ab-content">
+                                <div class="tab-wrap">
+                                    <img src="./images/Userdrink3.jpg" alt="news image" class="img-fluid">
+                                    <div class="ab-info-con">
+                                        <h4>C - Iced Milk Tea</h4>
+                                        <p class="price">$3.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 ab-content">
+                                <div class="tab-wrap">
+                                    <img src="./images/Userdrink4.jpeg" alt="news image" class="img-fluid">
+                                    <div class="ab-info-con">
+                                        <h4>D - Iced Lemon Tea</h4>
+                                        <p class="price">$3.99</p>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//mid-sec-->
+    <!-- edit cart -->
+    <section class="gallery py-5" id="gallery">
+        <div class="container py-md-5">
+            <div class="header text-center">
+                <h3 class="tittle mb-lg-5 mb-3">My cart</h3>
+            </div>
+            <div class="row news-grids text-center gallery-wrap">
+                <div class="food-name mx-auto text-center">
+                    <a href="#contact" class="food-name scroll">COMBO A</a> </div>
+                <div class="food-name mx-auto text-center">
+                    <a href="#contact" class="food-name scroll">COMBO B</a> </div>
+                <div class="food-name mx-auto text-center">
+                    <a href="#contact" class="food-name scroll">COMBO C</a> </div>
+                <div class="food-name mx-auto text-center">
+                    <a href="#contact" class="food-name scroll">COMBO D</a> </div>
+            </div>
+            <form name="calculation">
+                <div class="row ab-info mt-lg-4">
+                    <div class="col-lg-3 ab-content">
+                        <div class="ab-content-inner">
+                            <div class="ab-info-con">
+                                <label>Num *</label>
+                                <input type="text" class="form-control" id="name" placeholder="" name="a" required="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ab-content">
+                        <div class="ab-content-inner">
+                            <div class="ab-info-con">
+                                <label>Num *</label>
+                                <input type="text" class="form-control" id="name" placeholder="" name="b" required="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ab-content">
+                        <div class="ab-content-inner">
+                            <div class="ab-info-con">
+                                <label>Num *</label>
+                                <input type="text" class="form-control" id="name" placeholder="" name="c" required="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ab-content">
+                        <div class="ab-content-inner">
+                            <div class="ab-info-con">
+                                <label>Num *</label>
+                                <input type="text" class="form-control" id="name" placeholder="" name="d" required="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="read-more mx-auto text-center">
+                    <label>Submit *</label>
+                    <button type="submit" class="btn btn-default" onclick="Menushow()">Submit</button>
+                </div>
+                <div class="read-more mx-auto text-center">
+                        <a href="./UserCart.html" class="read-more scroll">Seprate Order</a> 
+                </div>
+            </form>
+            
+
+            <!-- popup-->
+            <div id="gal1" class="pop-overlay animate">
+                <div class="popup">
+                    <img src="images/g1.jpg" alt="Popup Image" class="img-fluid" />
+
+                    <a class="close" href="#gallery">&times;</a>
+                </div>
+            </div>
+            <!-- //popup -->
+
+            <!-- popup-->
+            <div id="gal2" class="pop-overlay animate">
+                <div class="popup">
+                    <img src="images/g2.jpg" alt="Popup Image" class="img-fluid" />
+
+                    <a class="close" href="#gallery">&times;</a>
+                </div>
+            </div>
+            <!-- //popup -->
+            <!-- popup-->
+            <div id="gal3" class="pop-overlay animate">
+                <div class="popup">
+                    <img src="images/g3.jpg" alt="Popup Image" class="img-fluid" />
+
+                    <a class="close" href="#gallery">&times;</a>
+                </div>
+            </div>
+            <!-- //popup3 -->
+            <!-- popup-->
+            <div id="gal4" class="pop-overlay animate">
+                <div class="popup">
+                    <img src="images/g4.jpg" alt="Popup Image" class="img-fluid" />
+
+                    <a class="close" href="#gallery">&times;</a>
+                </div>
+            </div>
+            <!-- //popup -->
+
+
+        </div>
+    </section>
+    <!--// gallery -->
+    <!--/order-now-->
+    <section class="order-sec pb-5 pt-md-0 pt-5" id="order">
+        <div class="container py-lg-3">
+            <div class="test-info text-center">
+                <h3 class="tittle order">
+                    <span>Steep discount With</span>Login and registration</h3>
+
+                <div class="row mt-lg-4 mt-3">
+                    <div class="col-md-6 order-left-content text-right">
+                        <h4>90%</h4>
+                    </div>
+                    <div class="col-md-6 order-right-content text-left">
+                        <ul class="tic-info list-unstyled">
+                            <li>
+
+                                <span class="fa fa-long-arrow-right mr-2"></span> Get regular cupons
+
+                            </li>
+                            <li>
+
+                                <span class="fa fa-long-arrow-right mr-2"></span> Hoildays pay off
+
+                            </li>
+                            <li>
+
+                                <span class="fa fa-long-arrow-right mr-2"></span> Tasting new dishes
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <form name="Discountcal">
+                        <div class="row ab-info mt-lg-4">
+                            <div class="col-lg-3 ab-content">
+                                <div class="ab-content-inner">
+                                    <div class="ab-info-con">
+                                        <label>Name *</label>
+                                        <input type="text" class="form-control" id="name" placeholder="" name="nickname" required="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 ab-content">
+                                <div class="ab-content-inner">
+                                    <div class="ab-info-con">
+                                        <label>Phone num *</label>
+                                        <input type="text" class="form-control" id="name" placeholder="" name="tel" required="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 ab-content">
+                                <div class="ab-content-inner">
+                                    <div class="ab-info-con">
+                                        <label>Password *</label>
+                                        <input type="text" class="form-control" id="name" placeholder="" name="password" required="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="read-more mx-auto text-center">
+                        <a href="" class="read-more scroll" onclick="Discount()">Login</a> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//order-now-->
+
+</body>
+
+</html>
